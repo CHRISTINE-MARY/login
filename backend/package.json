@@ -16,5 +16,9 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2"
+  },
+  "scripts": {
+    "postinstall": "prisma generate",
+    "start": "npx ts-node src/server.ts"
   }
 }
